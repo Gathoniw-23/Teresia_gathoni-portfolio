@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teresia Gathoni Wanjera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Teresia Gathoni</div>
+        <div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Teresia Gathoni</div>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/tessy profile.jpg" alt="Teresia Gathoni profile Picture" />
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I am</p>
+            <h1 class="title">Teresia Gathoni</h1>
+            <p class="section_text_p2">FullStack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./teresia cv pdf.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/teresia-gathoni/'">
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/Gathoniw-23'">
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/tessy pic1.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <img src="./assets/experience.png" alt="Experience Icon" class="icon"/>
+                    <h3>Experience</h3>
+                    <p>1+ Years <br> Fullstack Development</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>I am currently pursuing a bachelor`s degree in Iinformation Science at the University of Nairobi. 
+                    I am also learning Data Analysis through a scholarship opportunity at Datacamp.<br>
+                    My passion lies in mastering advanced data analysis techniques and prolem solving. <br>
+                    Additionaly ,I am exploring the exciting field of machine learning to broden my analytical skills.<br>
+                    I am also a Fullstack Developer<br>
+                    with a passion for creating and developing web applications. 
+                    I am a fast learner and I am always eager to learn new technologies and improve my skills.
+                </p>
+            </div>
+        </div>
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">FrontEnd Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Flutter</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">BackEnd Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Express.js</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="Projects">
+        <p class="section_text_p1">Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color container">
+                    <div class="article-container">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+
+    </section>
+    
+</body>
+</html>
+
